@@ -45,7 +45,7 @@ Hamstrong is a 2D shooter game developed with Java Swing.
 
 ## 🖼️ Ekran Görüntüleri / Screenshots
 
-![Oyun Görseli 1](images/screenshot1.png)  
+![Oyun Görseli 1](images/bomber1.png)  
 ![Oyun Görseli 2](images/screenshot2.png)  
 
 ---
