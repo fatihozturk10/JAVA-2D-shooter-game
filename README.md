@@ -56,7 +56,20 @@ Hamstrong is a 2D shooter game developed with Java Swing.
 
 ## ⚡ Kurulum ve Çalıştırma / Installation & Run
 
-1. Depoyu klonla / Clone the repo:
-```bash
+# 1️⃣ GitHub’dan projeyi klonla
 git clone https://github.com/fatihozturk10/JAVA-2D-GAME.git
+
+# 2️⃣ Proje src klasörüne gir
+cd .\JAVA-2D-GAME\src\
+
+# 3️⃣ Derleme (out klasörüne .class dosyalarını oluştur)
+Get-ChildItem -Path . -Filter *.java | ForEach-Object { javac -d ..\out $_.FullName }
+
+# 4️⃣ Proje köküne çık
+cd ..
+
+# 5️⃣ Oyunu çalıştır
+java -cp out Main
+
+İyi oyunlar.
 
