@@ -73,11 +73,4 @@ java -cp out Main
 
 İyi oyunlar.
 
-//
-git clone https://github.com/fatihozturk10/JAVA-2D-GAME.git
-cd .\JAVA-2D-GAME\src\
-Get-ChildItem -Path . -Filter *.java | ForEach-Object { javac -d ..\out $_.FullName }
-cd ..
-java -cp out Main
-//
 
